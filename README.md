@@ -1,24 +1,21 @@
 # UsdQt
 
-### Qt components for building custom USD tools
+### Qt support for Pixar USD to allow authoring & plugin loading of GUI components
 
-#### Current Branch Compatibility
+#### Version Compatibility
 
-- master : USD 19.07
-     - Should be compatible with the post-19.07 USD dev branch up to and including [b6ccb4e5](https://github.com/PixarAnimationStudios/USD/commit/b6ccb4e543dea2ab4cd41b0fc162c5501ac9b103)
-- dev : USD 19.11+
+- release : (Work in Progress) USD 21.05+
 
 ## Project Goals
 
-The UI components that make up `usdview` are good reference for functionality,
-but they’re purpose-built for the application, and are implemented in ways that
-make them difficult to decouple from it.
+This project is meant to provide support for the authoring of Qt GUI components
+in Universal Scene Description. Creating and building QtWidgets, storing Window
+state, and loading of custom application components for ad-hoc use in custom tools.
 
-This project is meant to provide application components that can provide similar
-(as well as new) functionality, to allow for ad-hoc use in custom tools.
-
-Longer-term, we hope this project will grow to the point that it can be used to
-build a fully-functional `usdview` application.
+This project has been picked up to serve as the main GUI framework for the upcoming
+Digital Content Creation platform - **WINGG**. And will remain an open source project
+so that other software tools can make use of USD's GUI functionality, and GUI components
+can be shared and reused accross the USD landscape.
 
 ## Contents
 
